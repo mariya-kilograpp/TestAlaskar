@@ -82,7 +82,7 @@ extension MapViewController: GMSMapViewDelegate {
     func mapView(_ mapView: GMSMapView, didTap marker: GMSMarker) -> Bool {
         let distance = GMSGeometryDistance((self.locationManager.location?.coordinate)!, marker.position)
         let title = (distance <= Constants.Radius.Min) ? "near_marker".localized : "away_marker".localized
-        self.showAlert(title: title, message: nil)
+        self.showAlert(title: title)
         return true
     }
 }
