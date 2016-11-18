@@ -43,13 +43,14 @@ extension MapViewController: ShowLocations {
     
     fileprivate func showLocations() {
         self.mapView.clear()
-        let location = self.locationManager.location?.coordinate
-        self.pointArray = FormPointArrayService.sharedInstance.configureArray(map: self.mapView, userLocation: location!)
+        guard let location = self.locationManager.location else {self.showAlert(title: "unable_determine_location".localized,
+                                                                        message: "if_testing_on_simulator_including_determination_location".localized); return }
+        self.pointArray = FormPointArrayService.sharedInstance.configureArray(map: self.mapView, userLocation: location.coordinate)
         guard let pointArray = self.pointArray else { return }
         pointArray.forEach{
             let position = CLLocationCoordinate2D(latitude: $0.latitude, longitude: $0.longitude)
             let marker = GMSMarker(position: position)
-            marker.icon = GMSMarker.markerImage(for: location, targetLocation: position)
+            marker.icon = GMSMarker.markerImage(for: location.coordinate, targetLocation: position)
             marker.map = self.mapView
             marker.userData = $0
         }

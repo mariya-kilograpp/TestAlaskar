@@ -9,3 +9,5 @@
 "ok" = "ОК";
 "near_marker" = "Вы около маркера";
 "away_marker" = "Вы находитесь далеко";
+"unable_determine_location" = "Не удалось определить Ваши координаты";
+"if_testing_on_simulator_including_determination_location" = "Если тестируете на симуляторе, включите определение локации: Debug/Location";
