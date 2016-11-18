@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  TestAlaskar
+
+  Created by Mariya on 18.11.16.
+  Copyright © 2016 Kilograpp. All rights reserved.
+*/
+
+"ok" = "ОК";
+"near_marker" = "Вы около маркера";
+"away_marker" = "Вы находитесь далеко";

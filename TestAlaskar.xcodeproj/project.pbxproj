@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8D79AF6137DC6CD657379D0 /* libPods-TestAlaskar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C14ABBC7BBE63A1CD01DFB9 /* libPods-TestAlaskar.a */; };
+		CD51E7A71DDE15DC00BBAC7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7A61DDE15DC00BBAC7A /* AppDelegate.swift */; };
+		CD51E7AC1DDE15DC00BBAC7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD51E7AA1DDE15DC00BBAC7A /* Main.storyboard */; };
+		CD51E7AE1DDE15DC00BBAC7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD51E7AD1DDE15DC00BBAC7A /* Assets.xcassets */; };
+		CD51E7B11DDE15DC00BBAC7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD51E7AF1DDE15DC00BBAC7A /* LaunchScreen.storyboard */; };
+		CD51E7BB1DDE1D8200BBAC7A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7BA1DDE1D8200BBAC7A /* Constants.swift */; };
+		CD51E7C01DDE225700BBAC7A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7BF1DDE225700BBAC7A /* MapViewController.swift */; };
+		CD51E7C21DDE234500BBAC7A /* Double+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7C11DDE234500BBAC7A /* Double+Random.swift */; };
+		CD51E7C41DDE24F200BBAC7A /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7C31DDE24F200BBAC7A /* Point.swift */; };
+		CD51E7C61DDE28E400BBAC7A /* GMSMapView+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7C51DDE28E400BBAC7A /* GMSMapView+Animation.swift */; };
+		CD51E7C81DDE304200BBAC7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD51E7C71DDE304200BBAC7A /* GoogleService-Info.plist */; };
+		CD51E7CF1DDE524900BBAC7A /* GMSMarker+Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7CE1DDE524900BBAC7A /* GMSMarker+Icon.swift */; };
+		CD51E7D71DDF0CC500BBAC7A /* String+LocalizedString.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7D61DDF0CC500BBAC7A /* String+LocalizedString.swift */; };
+		CD51E7D91DDF0DB900BBAC7A /* FormPointArrayService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7D81DDF0DB900BBAC7A /* FormPointArrayService.swift */; };
+		CD51E7DB1DDF0EF400BBAC7A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD51E7DD1DDF0EF400BBAC7A /* Info.plist */; };
+		CD51E7E71DDF117700BBAC7A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD51E7E61DDF117700BBAC7A /* Localizable.strings */; };
+		CD51E7EF1DDF172D00BBAC7A /* UIViewController+Alerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD51E7EE1DDF172D00BBAC7A /* UIViewController+Alerts.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26CA0B009C9599D02CB86497 /* Pods-TestAlaskar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAlaskar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestAlaskar/Pods-TestAlaskar.debug.xcconfig"; sourceTree = "<group>"; };
+		2C14ABBC7BBE63A1CD01DFB9 /* libPods-TestAlaskar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestAlaskar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B709F23C6EA95F132B1A7B54 /* Pods-TestAlaskar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestAlaskar.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestAlaskar/Pods-TestAlaskar.release.xcconfig"; sourceTree = "<group>"; };
+		CD51E7A31DDE15DC00BBAC7A /* TestAlaskar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestAlaskar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD51E7A61DDE15DC00BBAC7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD51E7AB1DDE15DC00BBAC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD51E7AD1DDE15DC00BBAC7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD51E7B01DDE15DC00BBAC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD51E7BA1DDE1D8200BBAC7A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD51E7BF1DDE225700BBAC7A /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CD51E7C11DDE234500BBAC7A /* Double+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Double+Random.swift"; sourceTree = "<group>"; };
+		CD51E7C31DDE24F200BBAC7A /* Point.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		CD51E7C51DDE28E400BBAC7A /* GMSMapView+Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GMSMapView+Animation.swift"; sourceTree = "<group>"; };
+		CD51E7C71DDE304200BBAC7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD51E7CE1DDE524900BBAC7A /* GMSMarker+Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GMSMarker+Icon.swift"; sourceTree = "<group>"; };
+		CD51E7D61DDF0CC500BBAC7A /* String+LocalizedString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+LocalizedString.swift"; sourceTree = "<group>"; };
+		CD51E7D81DDF0DB900BBAC7A /* FormPointArrayService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FormPointArrayService.swift; path = Services/FormPointArrayService.swift; sourceTree = "<group>"; };
+		CD51E7DC1DDF0EF400BBAC7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		CD51E7E61DDF117700BBAC7A /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		CD51E7EE1DDF172D00BBAC7A /* UIViewController+Alerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Alerts.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD51E7A01DDE15DC00BBAC7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D79AF6137DC6CD657379D0 /* libPods-TestAlaskar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD51E79A1DDE15DC00BBAC7A = {
+			isa = PBXGroup;
+			children = (
+				CD51E7A51DDE15DC00BBAC7A /* TestAlaskar */,
+				CD51E7A41DDE15DC00BBAC7A /* Products */,
+				D02772CE80BBAC855B998B5E /* Pods */,
+				CDBF0F44779A1B8F20950103 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD51E7A41DDE15DC00BBAC7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD51E7A31DDE15DC00BBAC7A /* TestAlaskar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD51E7A51DDE15DC00BBAC7A /* TestAlaskar */ = {
+			isa = PBXGroup;
+			children = (
+				CD51E7C91DDE3D1500BBAC7A /* Services */,
+				CD51E7BE1DDE218600BBAC7A /* Classes */,
+				CD51E7BD1DDE216500BBAC7A /* ViewControllers */,
+				CD51E7BC1DDE215800BBAC7A /* Extentions */,
+				CD51E7A61DDE15DC00BBAC7A /* AppDelegate.swift */,
+				CD51E7AA1DDE15DC00BBAC7A /* Main.storyboard */,
+				CD51E7AD1DDE15DC00BBAC7A /* Assets.xcassets */,
+				CD51E7AF1DDE15DC00BBAC7A /* LaunchScreen.storyboard */,
+				CD51E7C71DDE304200BBAC7A /* GoogleService-Info.plist */,
+				CD51E7DD1DDF0EF400BBAC7A /* Info.plist */,
+				CD51E7BA1DDE1D8200BBAC7A /* Constants.swift */,
+				CD51E7E61DDF117700BBAC7A /* Localizable.strings */,
+			);
+			path = TestAlaskar;
+			sourceTree = "<group>";
+		};
+		CD51E7BC1DDE215800BBAC7A /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				CD51E7EE1DDF172D00BBAC7A /* UIViewController+Alerts.swift */,
+				CD51E7C11DDE234500BBAC7A /* Double+Random.swift */,
+				CD51E7C51DDE28E400BBAC7A /* GMSMapView+Animation.swift */,
+				CD51E7CE1DDE524900BBAC7A /* GMSMarker+Icon.swift */,
+				CD51E7D61DDF0CC500BBAC7A /* String+LocalizedString.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		CD51E7BD1DDE216500BBAC7A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CD51E7BF1DDE225700BBAC7A /* MapViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CD51E7BE1DDE218600BBAC7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CD51E7C31DDE24F200BBAC7A /* Point.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CD51E7C91DDE3D1500BBAC7A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CD51E7D81DDF0DB900BBAC7A /* FormPointArrayService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		CDBF0F44779A1B8F20950103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C14ABBC7BBE63A1CD01DFB9 /* libPods-TestAlaskar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D02772CE80BBAC855B998B5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26CA0B009C9599D02CB86497 /* Pods-TestAlaskar.debug.xcconfig */,
+				B709F23C6EA95F132B1A7B54 /* Pods-TestAlaskar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD51E7A21DDE15DC00BBAC7A /* TestAlaskar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD51E7B51DDE15DC00BBAC7A /* Build configuration list for PBXNativeTarget "TestAlaskar" */;
+			buildPhases = (
+				909A9F37D0826730B679C401 /* [CP] Check Pods Manifest.lock */,
+				CD51E79F1DDE15DC00BBAC7A /* Sources */,
+				CD51E7A01DDE15DC00BBAC7A /* Frameworks */,
+				CD51E7A11DDE15DC00BBAC7A /* Resources */,
+				7B8EE2DF61D6E0730C6FE565 /* [CP] Embed Pods Frameworks */,
+				EE8376133B692779F9641ED2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestAlaskar;
+			productName = TestAlaskar;
+			productReference = CD51E7A31DDE15DC00BBAC7A /* TestAlaskar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD51E79B1DDE15DC00BBAC7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Kilograpp;
+				TargetAttributes = {
+					CD51E7A21DDE15DC00BBAC7A = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = CD51E79E1DDE15DC00BBAC7A /* Build configuration list for PBXProject "TestAlaskar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+			);
+			mainGroup = CD51E79A1DDE15DC00BBAC7A;
+			productRefGroup = CD51E7A41DDE15DC00BBAC7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD51E7A21DDE15DC00BBAC7A /* TestAlaskar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD51E7A11DDE15DC00BBAC7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD51E7B11DDE15DC00BBAC7A /* LaunchScreen.storyboard in Resources */,
+				CD51E7E71DDF117700BBAC7A /* Localizable.strings in Resources */,
+				CD51E7C81DDE304200BBAC7A /* GoogleService-Info.plist in Resources */,
+				CD51E7AE1DDE15DC00BBAC7A /* Assets.xcassets in Resources */,
+				CD51E7DB1DDF0EF400BBAC7A /* Info.plist in Resources */,
+				CD51E7AC1DDE15DC00BBAC7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7B8EE2DF61D6E0730C6FE565 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAlaskar/Pods-TestAlaskar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		909A9F37D0826730B679C401 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE8376133B692779F9641ED2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestAlaskar/Pods-TestAlaskar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD51E79F1DDE15DC00BBAC7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD51E7C61DDE28E400BBAC7A /* GMSMapView+Animation.swift in Sources */,
+				CD51E7A71DDE15DC00BBAC7A /* AppDelegate.swift in Sources */,
+				CD51E7C41DDE24F200BBAC7A /* Point.swift in Sources */,
+				CD51E7EF1DDF172D00BBAC7A /* UIViewController+Alerts.swift in Sources */,
+				CD51E7C21DDE234500BBAC7A /* Double+Random.swift in Sources */,
+				CD51E7C01DDE225700BBAC7A /* MapViewController.swift in Sources */,
+				CD51E7CF1DDE524900BBAC7A /* GMSMarker+Icon.swift in Sources */,
+				CD51E7BB1DDE1D8200BBAC7A /* Constants.swift in Sources */,
+				CD51E7D71DDF0CC500BBAC7A /* String+LocalizedString.swift in Sources */,
+				CD51E7D91DDF0DB900BBAC7A /* FormPointArrayService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD51E7AA1DDE15DC00BBAC7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD51E7AB1DDE15DC00BBAC7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD51E7AF1DDE15DC00BBAC7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD51E7B01DDE15DC00BBAC7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CD51E7DD1DDF0EF400BBAC7A /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD51E7DC1DDF0EF400BBAC7A /* Base */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD51E7B31DDE15DC00BBAC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD51E7B41DDE15DC00BBAC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD51E7B61DDE15DC00BBAC7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26CA0B009C9599D02CB86497 /* Pods-TestAlaskar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TestAlaskar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KG.TestAlaskar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CD51E7B71DDE15DC00BBAC7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B709F23C6EA95F132B1A7B54 /* Pods-TestAlaskar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TestAlaskar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KG.TestAlaskar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD51E79E1DDE15DC00BBAC7A /* Build configuration list for PBXProject "TestAlaskar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD51E7B31DDE15DC00BBAC7A /* Debug */,
+				CD51E7B41DDE15DC00BBAC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		CD51E7B51DDE15DC00BBAC7A /* Build configuration list for PBXNativeTarget "TestAlaskar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD51E7B61DDE15DC00BBAC7A /* Debug */,
+				CD51E7B71DDE15DC00BBAC7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD51E79B1DDE15DC00BBAC7A /* Project object */;
+}
