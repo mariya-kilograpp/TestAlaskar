@@ -19,6 +19,7 @@ final class FormPointArrayService {
     static let sharedInstance = FormPointArrayService()
 }
 
+//MARK: - FormArray
 extension FormPointArrayService: FormArray {
     func configureRandomPoint(map: GMSMapView, userLocation: CLLocationCoordinate2D)  -> Point {
         //формирование рандомных значений широты и долготы у точки в квадрате: +- 100 метров (на север, юг, запад, восток) от пользователя
@@ -38,7 +39,7 @@ extension FormPointArrayService: FormArray {
     
     func configureArray(map: GMSMapView, userLocation: CLLocationCoordinate2D) -> [Point]{
         var arrayPoint: [Point] = []
-
+        //формирование массива с точками
         while arrayPoint.count < Constants.Count.RandomPoint {
             let point = configureRandomPoint(map: map, userLocation: userLocation)
             if point.distance <= Constants.Radius.Standart {

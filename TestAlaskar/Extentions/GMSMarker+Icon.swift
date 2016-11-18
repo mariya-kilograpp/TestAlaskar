@@ -13,6 +13,6 @@ extension GMSMarker {
     public static func markerImage(for myLocation:CLLocationCoordinate2D?, targetLocation:CLLocationCoordinate2D) -> UIImage {
         guard myLocation != nil else { return GMSMarker.markerImage(with: UIColor.yellow) }
         let distance = GMSGeometryDistance(myLocation!, targetLocation)
-        return GMSMarker.markerImage(with: distance < Constants.Radius.Min ? UIColor.green : UIColor.yellow)
+        return GMSMarker.markerImage(with: distance <= Constants.Radius.Min ? UIColor.green : UIColor.yellow)
     }
 }
