@@ -22,18 +22,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlK-oI-qi9" customClass="GMSMapView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="627"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BmK-Mz-XnS">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="LVr-OY-Ncl"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Сформировать новый массив"/>
+                                <connections>
+                                    <action selector="updatePointArray:" destination="iel-SH-bIx" eventType="touchUpInside" id="Yff-4l-x4N"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hlK-oI-qi9" firstAttribute="top" secondItem="090-Cq-o8s" secondAttribute="top" id="3tJ-gf-GdB"/>
-                            <constraint firstItem="Wxt-Sa-1VI" firstAttribute="top" secondItem="hlK-oI-qi9" secondAttribute="bottom" id="5RE-gK-OW8"/>
+                            <constraint firstItem="Wxt-Sa-1VI" firstAttribute="top" secondItem="BmK-Mz-XnS" secondAttribute="bottom" id="ABF-Ed-TZ0"/>
+                            <constraint firstItem="BmK-Mz-XnS" firstAttribute="centerX" secondItem="090-Cq-o8s" secondAttribute="centerX" id="FNl-Xe-oaG"/>
+                            <constraint firstItem="BmK-Mz-XnS" firstAttribute="leading" secondItem="090-Cq-o8s" secondAttribute="leading" id="Fzj-k7-eff"/>
+                            <constraint firstItem="BmK-Mz-XnS" firstAttribute="top" secondItem="hlK-oI-qi9" secondAttribute="bottom" id="Heu-Fq-l3c"/>
+                            <constraint firstAttribute="trailing" secondItem="BmK-Mz-XnS" secondAttribute="trailing" id="fdl-F8-bJN"/>
                             <constraint firstAttribute="trailing" secondItem="hlK-oI-qi9" secondAttribute="trailing" id="kKv-4M-Az4"/>
                             <constraint firstItem="hlK-oI-qi9" firstAttribute="leading" secondItem="090-Cq-o8s" secondAttribute="leading" id="zId-Rf-M8U"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="mapView" destination="hlK-oI-qi9" id="gVH-Ep-Ips"/>
                     </connections>

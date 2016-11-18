@@ -14,12 +14,14 @@ final class MapViewController: UIViewController {
     @IBOutlet weak var mapView: GMSMapView!
     fileprivate let locationManager = CLLocationManager()
     fileprivate var pointArray: [Point]?
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setupLocationManager()
         setupMapView()
+    }
+    @IBAction func updatePointArray(_ sender: Any) {
+        showLocations()
     }
 }
 
@@ -57,6 +59,7 @@ extension MapViewController: ShowLocations {
 //MARK: - Setup
 extension MapViewController: Setup {
     fileprivate func setupLocationManager() {
+        self.mapView.clear()
         self.locationManager.requestAlwaysAuthorization()
         self.locationManager.requestWhenInUseAuthorization()
         
